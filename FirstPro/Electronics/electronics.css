@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif;
+}
+
+.nav-bar {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #0c0d0d;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-bar:hover {
+  background-color: rgb(233, 200, 67);
+}
+
+.logo img {
+  display: flex;
+  cursor: pointer;
+  width: 100px;
+  margin-right: 20px;
+}
+
+.search {
+  display: flex;
+  flex: 1;
+}
+
+.search input {
+  display: flex;
+  padding: 10px;
+  width: 600px;
+  font-weight: 500;
+  font-size: 16px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  color: #0c0d0d;
+}
+.search button {
+  display: flex;
+  align-items: center;
+  background-color: #0a0a0b;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(233, 200, 67);
+  width: 80px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+}
+.search button:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.search img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.hypertext {
+  margin-right: 50px;
+}
+
+.hypertext a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+}
+.hypertext a:hover {
+  color: black;
+  font-size: 40px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon img {
+  margin-right: 10px;
+}
+.icon a:hover {
+  height: 90px;
+}
+.hero {
+  margin-top: 100px;
+}
+.hero img {
+  margin-bottom: 15px;
+  border-radius: 20px;
+  width: 100%;
+}
+.heading {
+  padding-left: 400px;
+  font-size: larger;
+  font-size: 40px;
+}
+
+.heading:hover {
+  background-color: rgb(233, 200, 67);
+}
+.image1 {
+  margin-top: 40px;
+  display: flex;
+}
+.image1 img {
+  margin-top: 40px;
+  width: 100%;
+}
+.shoe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  background-color: rgb(9, 2, 2);
+}
+
+.card {
+  display: block;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  height: 520px;
+  border-radius: 10px;
+  background-color: black;
+  border: 2px solid white;
+}
+.item1_1 img {
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  flex: 1;
+  border: 1px solid rgb(246, 242, 242);
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  height: 340px;
+  background-color: aliceblue;
+}
+#first:hover {
+  content: url(E2.png);
+}
+#second:hover {
+  content: url(E3_3.png);
+}
+
+#three:hover {
+  content: url(E4_4.png);
+}
+
+#four:hover {
+  content: url(E5_5.png);
+}
+
+#five:hover {
+  content: url(E6_6.png);
+}
+
+#six:hover {
+  content: url(E7_7.png);
+}
+
+#seven:hover {
+  content: url(E8_8.png);
+}
+#eight:hover {
+  content: url(E9_9.png);
+}
+
+#nine:hover {
+  content: url(E10_10.png);
+}
+
+#ten:hover {
+  content: url(E11_11.png);
+}
+#eleven:hover {
+  content: url(E12_12.png);
+}
+#twelve:hover {
+  content: url(E13_13.png);
+}
+.item1_2 h3 {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+}
+.item1_3 h4 {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+}
+.item1_1 {
+  transition: transform 10s;
+}
+.item1_1 :hover {
+  transform: translateY(-40px);
+}
+.image1 img:hover {
+  border: 5px solid rgb(233, 200, 67);
+}
+
+.item1_1 img:hover {
+  border: 5px solid rgb(233, 200, 67);
+}
+
+.item1_4 button {
+  align-items: center;
+  width: 80px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 120px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: rgb(233, 200, 67);
+}
+
+.item1_4 button:hover {
+  width: 180px;
+  margin-right: 100px;
+  background-color: darkorange;
+}

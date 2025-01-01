@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(233, 200, 67);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.Container {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+form {
+  line-height: 30px;
+}
+#p {
+  margin-left: 90px;
+}
+input {
+  width: 190px;
+  height: 25px;
+}
+button {
+  align-items: center;
+  margin-top: 20px;
+  width: 200px;
+}
+button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+input {
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
